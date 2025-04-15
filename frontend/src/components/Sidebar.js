@@ -26,7 +26,7 @@ const Sidebar = () => {
 
       <aside className={`sidebar ${isOpen ? 'open' : ''} ${isCollapsed ? 'collapsed' : ''}`}>
         <div className="top-section">
-          <h2 className="logo">{!isCollapsed && 'Karthik'}</h2>
+          <h2 className="logo">{!isCollapsed && 'Karthik Konyala'}</h2>
           <button className="collapse-btn" onClick={toggleCollapse}>
             {isCollapsed ? '▶' : '◀'}
           </button>
