@@ -148,11 +148,27 @@ const Projects = () => {
 
                   {/* Project Stats */}
                   <div className="flex items-center justify-between pt-4 border-t border-gray-100 dark:border-gray-700">
-                    <div className="text-sm text-gray-500 dark:text-gray-400">
-                      <span className="flex items-center">
-                        <FiExternalLink className="w-4 h-4 mr-1" />
-                        Live Demo
-                      </span>
+                    <div className="flex items-center space-x-4">
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-2 px-4 py-2 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg transition-colors text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                      >
+                        <FiGithub className="w-4 h-4" />
+                        <span className="text-sm font-medium">GitHub</span>
+                      </a>
+                      {project.live !== '#' && (
+                        <a
+                          href={project.live}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center space-x-2 px-4 py-2 bg-blue-100 dark:bg-blue-900/30 hover:bg-blue-200 dark:hover:bg-blue-900/50 rounded-lg transition-colors text-blue-700 dark:text-blue-400 hover:text-blue-900 dark:hover:text-blue-300"
+                        >
+                          <FiExternalLink className="w-4 h-4" />
+                          <span className="text-sm font-medium">Live Demo</span>
+                        </a>
+                      )}
                     </div>
                     <div className={`px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r ${project.color} text-white`}>
                       {project.status}
