@@ -10,7 +10,7 @@ const projects = [
     bgColor: 'bg-blue-50 dark:bg-blue-900/20',
     status: 'Active',
     technologies: ['FastAPI', 'PostgreSQL', 'Docker', 'SQLAlchemy', 'JWT', 'RBAC'],
-    github: 'https://github.com/kart2405/iam-system',
+    github: 'https://github.com/kart2405/IAM-Identity-Access-Management-System',
     live: '#',
   },
   {
