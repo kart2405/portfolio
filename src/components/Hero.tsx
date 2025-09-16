@@ -85,7 +85,7 @@ const Hero = () => {
               transition={{ delay: 0.3 }}
               className="text-2xl md:text-3xl text-blue-700 dark:text-blue-400 mb-8 font-semibold"
             >
-              Software Developer
+              Software Engineer
             </motion.h2>
             <motion.div
               initial={{ opacity: 0, y: 20 }}

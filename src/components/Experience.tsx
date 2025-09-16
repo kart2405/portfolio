@@ -2,45 +2,35 @@ import { motion } from 'framer-motion'
 
 const experiences = [
   {
+    title: 'Software Engineer',
+    company: 'SecureAI',
+    period: 'Sept 2024 – Present',
+    description: [
+      'Delivered GenAI security platform reducing data exposure by 90% and enabling secure AI adoption across enterprises.',
+      'Built role-based access control and document sanitization pipelines with PII/PHI redaction to streamline compliance reviews.',
+      'Deployed containerized services on GCP Cloud Run using Docker and CI/CD pipelines for reliable and efficient releases.',
+    ],
+  },
+  {
     title: 'Graduate Assistant',
     company: 'Texas Tech University',
-    period: 'Dec 2024 – May 2025',
+    period: 'Dec 2024 – Jan 2025',
     description: [
-      'Designed, administered, and published surveys on the Qualtrics platform, ensuring accurate implementation with a strong emphasis on user experience and design clarity.',
+      'Designed and maintained real-time data systems using Spring Boot, Apache Kafka, and MySQL, enabling reliable streaming analytics and reduced data latency for academic projects.',
+      'Developed and optimized GraphQL and REST APIs integrated with ReactJS frontends, improving accessibility and reducing over-fetching.',
+      'Containerized research applications with Docker and mentored undergraduate students on debugging, deployment, and data pipeline design.',
     ],
   },
   {
     title: 'Software Developer',
-    company: 'IESoft Technologies',
-    period: 'July 2022 – July 2023',
+    company: 'IESoftek Technologies',
+    period: 'Feb 2023 – July 2023',
     description: [
-      'Resolved bugs and implemented UI improvements, enhancing application stability and user experience.',
-      'Enhanced API data integration and transitioned to backend development using NodeJS, resulting in increased functionality and improved code quality.',
-    ],
-  },
-  {
-    title: 'Web Developer',
-    company: 'Mantix Digital Solutions',
-    period: 'May 2022 – July 2022',
-    description: [
-      'Developed a Django web app for file uploads and image processing.',
-      'Configured views, URL patterns, and media directories; used Python Notebook for file processing and display.',
-    ],
-  },
-  {
-    title: 'Residential Tutor',
-    company: 'Texas Tech University',
-    period: 'Aug 2023 – Dec 2023',
-    description: [
-      'Guided and mentored students in residential life, promoting academic excellence and community engagement.',
-    ],
-  },
-  {
-    title: 'Vice President, Student Development Council',
-    company: 'IIIT Sri City',
-    period: 'Aug 2022 – June 2023',
-    description: [
-      'Led initiatives to enhance student growth, coordinated campus-wide events, and represented student interests in institutional planning.',
+      'Optimized backend services in Node.js and Express.js using MongoDB/Mongoose and PostgreSQL; achieved a 25% reduction in errors and 18% faster API responses.',
+      'Built and deployed AngularJS frontend modules integrated with REST APIs and secured via RBAC with JWT/OAuth2, reducing unauthorized access issues by 30%.',
+      'Launched appointment scheduling for 1,000+ practitioners combining optimized MongoDB queries, Express middleware, and Redis caching.',
+      'Automated deployments with Docker, AWS EC2/S3, and GitHub Actions; delivered zero-downtime weekly releases and improved media-heavy response times by 20%.',
+      'Integrated Grafana, Prometheus, and structured logging for proactive monitoring, reducing downtime incidents.',
     ],
   },
 ]
